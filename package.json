@@ -1,0 +1,20 @@
+{
+  "name": "text-generator",
+  "version": "1.0.0",
+  "description": "super cool generator",
+  "main": "text_generator_node.js",
+  "scripts": {
+    "browserify": "browserify text_generator_node.js --s module > text_generator_browser.js && terser text_generator_browser.js -o text_generator_browser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafal-Majewski/text-generator-js.git"
+  },
+  "author": "Rafał Majewski",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Rafal-Majewski/text-generator-js/issues"
+  },
+  "homepage": "https://github.com/Rafal-Majewski/text-generator-js#readme",
+  "dependencies": {}
+}
